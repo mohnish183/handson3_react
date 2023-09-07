@@ -3,6 +3,7 @@ import "./Formpage.css";
 
 export default class FormData extends Component {
   constructor(props) {
+    console.log(props.value)
     super(props);
   }
 
